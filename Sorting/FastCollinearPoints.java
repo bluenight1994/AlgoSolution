@@ -16,11 +16,33 @@ public class FastCollinearPoints {
 
     public FastCollinearPoints(Point[] points) {
         Arrays.sort(points);
+        seq = new ArrayList<>();
         for(int i=0; i<points.length; i++) {
             Point originalPoint = points[i];
             Point[] other = new Point[points.length-1];
+            int index = 0;
+            for(int j=0; j<points.length; j++) {
+                if(j != i) {
+                    other[index++] = points[j];
+                }
+            }
+            Arrays.sort(other, originalPoint.slopeOrder());
+            List<Point> collinear = new ArrayList<>();
+            double previous = 0.0;
+            for(Point p : other) {
+                if( p.slopeTo(originalPoint) != previous) {
+                    if(collinear.size() >= 3) {
+                        collinear.add(originalPoint);
+                        Collections.sort(collinear);
+                        LineSegment segment = new LineSegment(collinear.get(0), collinear.get(collinear.size()-1));
+                        seq.add(segment);
+                    }
+                    collinear.clear();
+                }
+                collinear.add(p);
+                previous = p.slopeTo(originalPoint);
+            }
         }
-
     }
 
     public int numberOfSegments() {
@@ -28,7 +50,7 @@ public class FastCollinearPoints {
     }
 
     public LineSegment[] segments() {
-        return (LineSegment[]) seq.toArray();
+        return seq.toArray(new LineSegment[0]);
     }
 
     public static void main(String[] args) {

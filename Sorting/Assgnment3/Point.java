@@ -1,5 +1,3 @@
-package com.hong.algo;
-
 /**
  * Created by GanHong on 12/13/16.
  */
@@ -64,7 +62,7 @@ public class Point implements Comparable<Point> {
      * @return the slope between this point and the specified point
      */
     public double slopeTo(Point that) {
-        if( x == that.x ) {
+        if (x == that.x) {
             if (y == that.y) {
                 return Double.NEGATIVE_INFINITY;
             }
@@ -105,8 +103,8 @@ public class Point implements Comparable<Point> {
             public int compare(Point o1, Point o2) {
                 double s1 = slopeTo(o1);
                 double s2 = slopeTo(o2);
-                if ( s1 == s2 ) return 0;
-                if ( s1 < s2 ) return -1;
+                if (s1 == s2) return 0;
+                if (s1 < s2) return -1;
                 return 1;
             }
         };

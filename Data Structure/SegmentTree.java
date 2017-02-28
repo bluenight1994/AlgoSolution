@@ -21,7 +21,9 @@ class SegmentTree {
 		int mid = (start + end) / 2;
 		build(2 * node + 1, start, mid);
 		build(2 * node + 2, mid + 1, end);
+		// range sum
 		tree[node] = tree[2 * node + 1] + tree[2 * node + 2];
+		// range min
 	}
 
 	public void update(int i, int val) {

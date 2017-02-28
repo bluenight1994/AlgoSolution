@@ -4,13 +4,19 @@ package com.hong.algo;
  * Created by GanHong on 10/22/16.
  */
 public class UnionFind {
+
+    int[] id;
+    int[] sz;
+    int n; // num of components
+
     public UnionFind(int n) {
-        int[] id = new int[n];
-        int[] sz = new int[n];
+        id = new int[n];
+        sz = new int[n];
         for(int i=0; i<n; i++) {
             id[i] = i;
             sz[i] = 1;
         }
+        this.n = n;
     }
 
     public boolean find(int p, int q) {
@@ -25,6 +31,7 @@ public class UnionFind {
     }
 
     public void unite(int p, int q) {
+        n--;
         int i = root(p);
         int j = root(q);
         if(sz[i] < sz[j]) {
@@ -35,6 +42,4 @@ public class UnionFind {
             sz[i] += sz[j];
         }
     }
-
-
 }

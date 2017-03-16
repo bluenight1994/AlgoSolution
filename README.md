@@ -13,9 +13,9 @@ Notes and solution of Princeton Algorithms
 | Assignment                  |                                          |
 | --------------------------- | ---------------------------------------- |
 | 1. Percolation              | ![Screen Shot 2017-01-26 at 6.46.12 AM](./Screenshots/percolation.png) |
-| 2. Deque & Randomized Queue |                                          |
-| 3. Collinear Points         | ![3](./Screenshots/3.png)                |
-| 4. 8-puzzle                 | ![Screen Shot 2017-01-26 at 6.52.28 AM](./Screenshots/8puzzle.png) |
+| 2. Deque & Randomized Queue | <img src="./Screenshots/randomizedqueue.png" alt="Drawing" style="width: 300px;"/> |
+| 3. Collinear Points         | <img src="./Screenshots/3.png" alt="Drawing" style="width: 300px;"/> |
+| 4. 8-puzzle                 | <img src="./Screenshots/8puzzle.png" alt="Drawing" style="width: 300px;"/> |
 | 5. kdTree                   | ![Screen Shot 2017-01-26 at 6.53.37 AM](./Screenshots/kdtree.png) |
 |                             |                                          |
 

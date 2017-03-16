@@ -12,10 +12,10 @@ Notes and solution of Princeton Algorithms
 
 | Assignment                  |                                          |
 | --------------------------- | ---------------------------------------- |
-| 1. Percolation              | ![Screen Shot 2017-01-26 at 6.46.12 AM](./Screenshots/Screen Shot 2017-01-26 at 6.46.12 AM.png) |
+| 1. Percolation              | ![Screen Shot 2017-01-26 at 6.46.12 AM](./Screenshots/percolation.png) |
 | 2. Deque & Randomized Queue |                                          |
 | 3. Collinear Points         | ![3](./Screenshots/3.png)                |
-| 4. 8-puzzle                 | ![Screen Shot 2017-01-26 at 6.52.28 AM](./Screenshots/Screen Shot 2017-01-26 at 6.52.28 AM.png) |
-| 5. kdTree                   | ![Screen Shot 2017-01-26 at 6.53.37 AM](./Screenshots/Screen Shot 2017-01-26 at 6.53.37 AM.png) |
+| 4. 8-puzzle                 | ![Screen Shot 2017-01-26 at 6.52.28 AM](./Screenshots/8puzzle.png) |
+| 5. kdTree                   | ![Screen Shot 2017-01-26 at 6.53.37 AM](./Screenshots/kdtree.png) |
 |                             |                                          |
 

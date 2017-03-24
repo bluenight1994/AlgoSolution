@@ -21,7 +21,7 @@ public class Outcast {
         int distance = 0;
         for (int i = 0; i < nouns.length ; i++) {
             int tmp = 0;
-            for (int j = 0; j < nouns.length && j != i; j++) {
+            for (int j = 0; j < nouns.length; j++) {
                 tmp += wn.distance(nouns[i], nouns[j]);
             }
             if (tmp > distance) {

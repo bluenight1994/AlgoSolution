@@ -16,12 +16,12 @@ Notes and solution of Princeton Algorithms
 | Assignment                  |                                          |
 | --------------------------- | ---------------------------------------- |
 | 1. Percolation              | ![Screen Shot 2017-01-26 at 6.46.12 AM](./Screenshots/percolation.png) |
-| 2. Deque & Randomized Queue | <img src="./Screenshots/randomizedqueue.png" alt="Drawing" style="width: 200px;"/> |
-| 3. Collinear Points         | <img src="./Screenshots/3.png" alt="Drawing" style="width: 200px;"/> |
+| 2. Deque & Randomized Queue | <img src="./Screenshots/randomizedqueue.png" alt="Drawing" width="200"/> |
+| 3. Collinear Points         | <img src="./Screenshots/3.png" alt="Drawing" width="200"/> |
 | 4. 8-puzzle                 | <img src="./Screenshots/8puzzle.png" alt="Drawing" style="width: 200px;"/> |
 | 5. kdTree                   | ![Screen Shot 2017-01-26 at 6.53.37 AM](./Screenshots/kdtree.png) |
-| 6. Autocomplete             | <img src="./Screenshots/autocomplete-google.png" alt="Drawing" style="width: 200px;"/> |
-| 7. Wordnet                  | <img src="./Screenshots/wordnet.png" alt="Drawing" style="width: 200px;"/> |
-| 8. Seam Carver              | <img src="./Screenshots/seam-carving.png" alt="Drawing" style="width: 200px;"/> |
+| 6. Autocomplete             | <img src="./Screenshots/autocomplete-google.png" alt="Drawing" width="200"/> |
+| 7. Wordnet                  | <img src="./Screenshots/wordnet.png" alt="Drawing" width="200"/> |
+| 8. Seam Carver              | <img src="./Screenshots/seam-carving.png" alt="Drawing" width="200"/> |
 |                             |                                          |
 
